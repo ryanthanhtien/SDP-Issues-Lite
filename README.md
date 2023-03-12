@@ -27,6 +27,11 @@ npm run start
 npm run test
 ```
 
+# Prerequisites
+| REQUIREMENTS | DETAILS |
+|--------------| ------- |
+| Node.js | v14.15.5 |
+
 # Stack
 - Angular
 - Ngrx
