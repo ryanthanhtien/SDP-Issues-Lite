@@ -1,4 +1,5 @@
 # SDP Issues Lite - Tasks managing application (Angular+Ngrx+Material)
+Live demo: https://sdp-issues-lite.vercel.app
 ## App Features screenshot
 
 ###### Issues
