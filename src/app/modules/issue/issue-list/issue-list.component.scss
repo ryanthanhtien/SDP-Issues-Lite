@@ -1,0 +1,11 @@
+mat-list {
+  mat-list-item {
+    border-bottom: 1px dashed rgb(241, 238, 238);
+    padding-left: 0;
+    padding-right: 0;
+    cursor: pointer;
+    &:last-child {
+      border: none;
+    }
+  }
+}

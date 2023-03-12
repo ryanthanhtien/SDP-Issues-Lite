@@ -1,0 +1,15 @@
+<h1 id="issue-title">{{ issue?.title }}</h1>
+<p class="issue-heading"><strong>Note:</strong></p>
+<p>{{ issue?.note || "Add note..." }}</p>
+<p class="issue-heading"><strong>Assignee:</strong></p>
+<p>{{ user?.name || "Unassigned" }}</p>
+<div class="buttons">
+  <button (click)="close()" mat-raised-button color="">
+    <mat-icon matListItemIcon>close</mat-icon>
+    Close
+  </button>
+  <button (click)="close()" mat-raised-button color="primary">
+    <mat-icon matListItemIcon>done</mat-icon>
+    Complete
+  </button>
+</div>
